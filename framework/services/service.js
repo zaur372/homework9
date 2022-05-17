@@ -1,4 +1,3 @@
-import fetch from 'node-fetch';
 import urls from '../config/urls.js';
 
 const number_verification = {
