@@ -1,4 +1,3 @@
-import fetch from 'node-fetch';
 import {token, number, noApiKey, noNumber, notANumber, notValidNumber} from '../framework/config/const.js';
 import api from '../framework/services/index.js';
 
