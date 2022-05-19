@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Проверяем валидность номера",
+    "children" : [ {
+      "name" : "Проверить номер /GET 200",
+      "uid" : "677fb6a69599ab7b",
+      "parentUid" : "67cfbbc1b6dfc96a0d3958bf1c5a2970",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652972675954,
+        "stop" : 1652972676272,
+        "duration" : 318
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "67cfbbc1b6dfc96a0d3958bf1c5a2970"
+  } ],
+  "name" : "suites"
+}
