@@ -6,7 +6,7 @@ describe('Проверяем валидность номера', () => {
     const response = await api().Number().get(token, number);
     expect(response.status).toEqual(200);
     });
-  test.each`
+  /* test.each`
     number                       | expected
     ${''}                        | ${noNumber}
     ${'qqq'}                     | ${notANumber}
@@ -22,5 +22,5 @@ describe('Проверяем валидность номера', () => {
     expect(response.status).toEqual(401);
     let JSON = await response.json();
     expect(JSON).toEqual(noApiKey);
-    });
+    }); */
 }); 
