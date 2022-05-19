@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu May 19 14:03:14 GMT 2022","Thu May 19 14:03:15 GMT 2022","885","","Проверяем валидность номера","","Проверяем валидность номера","Проверить номер /GET 200","Проверить номер /GET 200",""

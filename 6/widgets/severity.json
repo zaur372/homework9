@@ -1,0 +1,11 @@
+[ {
+  "uid" : "8009ddd25e5e3e0f",
+  "name" : "Проверить номер /GET 200",
+  "time" : {
+    "start" : 1652968994768,
+    "stop" : 1652968995653,
+    "duration" : 885
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

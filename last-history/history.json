@@ -1,0 +1,22 @@
+{
+  "66dabba0731b1b934c7c2b1878faf6b2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8009ddd25e5e3e0f",
+      "reportUrl" : "https://zaur372.github.io/homework9/6//#testresult/8009ddd25e5e3e0f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652968994768,
+        "stop" : 1652968995653,
+        "duration" : 885
+      }
+    } ]
+  }
+}
