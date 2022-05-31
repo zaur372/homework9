@@ -1,4 +1,4 @@
-import {token, number, noApiKey, noNumber, notANumber, notValidNumber} from '../framework/config/const.js';
+import {token, number, noApiKey, noNumber, notANumber, notValidNumber} from '../framework/config/index.js';
 import api from '../framework/services/index.js';
 
 describe('Проверяем валидность номера', () => {
@@ -6,7 +6,7 @@ describe('Проверяем валидность номера', () => {
     const response = await api().Number().get(token, number);
     expect(response.status).toEqual(200);
     });
-  /* test.each`
+  test.each`
     number                       | expected
     ${''}                        | ${noNumber}
     ${'qqq'}                     | ${notANumber}
@@ -22,5 +22,5 @@ describe('Проверяем валидность номера', () => {
     expect(response.status).toEqual(401);
     let JSON = await response.json();
     expect(JSON).toEqual(noApiKey);
-    }); */
+    }); 
 }); 
